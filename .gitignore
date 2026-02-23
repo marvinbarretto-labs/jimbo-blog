@@ -1,0 +1,18 @@
+# OAuth tokens — NEVER commit
+*.token.json
+*access-token*
+.calendar-access-token.json
+
+# Caches
+.cache/
+.npm-cache/
+.config/
+node_modules/
+
+# OpenClaw internals
+.openclaw/
+memory/
+
+# System
+.DS_Store
+*.log

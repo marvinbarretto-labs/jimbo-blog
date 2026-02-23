@@ -1,0 +1,6 @@
+[safe]
+	directory = /workspace
+	directory = /home/openclaw/.openclaw/workspace
+[user]
+	email = marvinbarretto.labs@gmail.com
+	name = Jimbo

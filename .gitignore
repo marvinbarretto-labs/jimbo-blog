@@ -11,7 +11,6 @@ node_modules/
 
 # OpenClaw internals
 .openclaw/
-memory/
 
 # System
 .DS_Store

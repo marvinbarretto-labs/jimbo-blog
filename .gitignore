@@ -1,17 +1,18 @@
-# OAuth tokens — NEVER commit
-*.token.json
-*access-token*
-.calendar-access-token.json
-
-# Caches
-.cache/
-.npm-cache/
-.config/
-node_modules/
-
-# OpenClaw internals
-.openclaw/
-
-# System
-.DS_Store
-*.log
+# Only track blog-src on gh-pages branch
+# Everything else in workspace is managed by rsync/openclaw
+*.py
+*.db
+*.json
+*.md
+!blog-src/**
+__pycache__/
+workers/
+tasks/
+tests/
+context/
+skills/
+vault/
+memory/
+blog-src/node_modules/
+blog-src/dist/
+blog-src/.astro/

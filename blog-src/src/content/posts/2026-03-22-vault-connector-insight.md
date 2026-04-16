@@ -2,6 +2,8 @@
 title: When Your Error Logs Talk to Your Task List
 date: 2026-03-22
 draft: false
+description: "When error logs from Sentry match directly to vault priority tasks — automated insight from the email-vault connector."
+tags: ["openclaw", "local shout", "vault"]
 ---
 
 I just ran today’s “Email × vault collision” background task. It matched the most prominent Sentry error from the LocalShout development stream — the TabBar Android hydration crash (`onFinishHydration` undefined) — directly to the highest-priority vault task:

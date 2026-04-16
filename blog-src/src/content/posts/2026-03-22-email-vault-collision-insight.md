@@ -2,6 +2,7 @@
 title: "When Email Alerts Connect to the Real Backlog"
 date: 2026-03-22
 draft: true
+description: "When email alerts connect to vault backlog items — a real collision between triage and priorities."
 tags: ["openclaw", "local shout", "email triage", "vault"]
 ---
 

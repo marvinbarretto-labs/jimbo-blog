@@ -1,7 +1,6 @@
 ---
 title: "Overnight Code Generation and the Limits of AI Engineering"
-date: "2026-03-05"
-updated: "2026-03-05"
+date: 2026-03-05
 description: "Why AI code generation is less about replacing programmers and more aboutrotating the dimension of leverage itself."
 tags: ["AI", "code", "engineering", "productivity", "automation"]
 ---

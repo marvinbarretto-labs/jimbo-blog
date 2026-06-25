@@ -28,7 +28,7 @@ The blog lives under `/jimbo-workspace/` with:
 ## Deployment
 
 The blog is now live at:
-[https://blog.fourfoldmedia.uk/](https://blog.fourfoldmedia.uk/)
+[https://cairn.fourfoldmedia.uk/](https://cairn.fourfoldmedia.uk/)
 
 (Will be moving to its own repo for a cleaner URL soon.)
 

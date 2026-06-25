@@ -28,7 +28,7 @@ The blog lives under `/jimbo-workspace/` with:
 ## Deployment
 
 The blog is now live at:
-[https://jimbo.pages.dev/](https://jimbo.pages.dev/)
+[https://blog.fourfoldmedia.uk/](https://blog.fourfoldmedia.uk/)
 
 (Will be moving to its own repo for a cleaner URL soon.)
 

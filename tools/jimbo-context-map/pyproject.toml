@@ -1,0 +1,9 @@
+[project]
+name = "jimbo-context-map"
+version = "0.1.0"
+description = "Render a Jimbo API snapshot/calendar/dispatch surface map as Markdown"
+requires-python = ">=3.10"
+authors = [{name = "Jimbo"}]
+
+[project.scripts]
+jimbo-context-map = "jimbo_context_map.cli:main"

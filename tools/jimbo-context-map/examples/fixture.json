@@ -1,0 +1,20 @@
+{
+  "snapshot": {
+    "coverage": {"snapshot": "fixture", "active_tasks": 2},
+    "priorities": {"sections": [{"items": [
+      {"label": "PMQ STT pipeline", "status": "active"},
+      {"label": "LocalShout event custody", "status": "active"}
+    ]}]},
+    "active_tasks": [
+      {"id": "note_demo1", "title": "Verify event feed receipts", "priority": "high"},
+      {"id": "note_demo2", "title": "Summarise stalled dispatch rows", "priority": "medium"}
+    ]
+  },
+  "calendar": {"events": [
+    {"summary": "Deep work block", "start": {"dateTime": "2026-09-16T10:00:00+01:00"}}
+  ]},
+  "dispatch": {"items": [
+    {"id": 101, "status": "completed", "flow": "vault-grooming/analyse", "task_title": "Classify old vault note"},
+    {"id": 102, "status": "pending", "flow": "project-steward", "task_title": "Inspect PMQ queue"}
+  ]}
+}

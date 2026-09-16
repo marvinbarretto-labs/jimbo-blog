@@ -16,3 +16,11 @@ memory/
 blog-src/node_modules/
 blog-src/dist/
 blog-src/.astro/
+
+# Marvin-owned governance files — tracked so he can edit them on GitHub.
+# The cairn-maintenance reminder links here; before this they were ignored,
+# so that link 404'd. IDEAS.md and references/ stay ignored: Jimbo rewrites
+# them every run and tracking them only invites pull conflicts.
+!meta/CHARTER.md
+!meta/BLACKLIST.md
+!meta/TASTE.md

@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-20",
+  "artifact": "/home/jimbo/demos/capacity-map-2026-09-20/morocco-capacity-map.excalidraw",
+  "calendar_focus": "Morocco\n2026-09-17 \u2192 2026-09-24",
+  "triage_focus": "not present in next 10 events",
+  "task_coverage": {
+    "returned": 20,
+    "total_active_tasks": 377,
+    "unranked": 11,
+    "ranked_by": "effective_priority",
+    "detail_endpoint": "/api/vault/notes/{id}",
+    "note": "These 20 are the top of 377 active tasks by effective_priority, not the whole picture. 11 of those carry no priority at all, so the ranking is partial \u2014 treat the list as a starting point rather than a definitive set. Titles only: fetch /api/vault/notes/{id} for the few you actually discuss."
+  },
+  "sampled_task_total": 20,
+  "lane_counts": {
+    "untagged": 3,
+    "[\"money\",\"positioning\"]": 2,
+    "[\"trip\",\"recon\",\"morocco-2026\"]": 2,
+    "[\"infra\",\"workers\",\"grooming\",\"m2\",\"kipper\"]": 1,
+    "[\"foundry\",\"origin:synthesize-2026-05-18\",\"thread-a\",\"inputs\"]": 1,
+    "[\"cost\",\"hermes\",\"infra\"]": 1,
+    "[\"reflection\",\"portrait\",\"reflection-engine\",\"accountability\"]": 1,
+    "[\"jimbo\",\"positioning\",\"writing\",\"site\",\"money\"]": 1,
+    "[\"vault\",\"data-integrity\",\"archive\",\"epics\"]": 1,
+    "[\"briefing\",\"clarifications\",\"closure-loop\",\"dashboard\"]": 1,
+    "[\"testing\",\"ci\",\"flaky-tests\",\"dashboard\",\"jimbo-api\"]": 1,
+    "[\"jimbo\",\"capture\",\"check-in\",\"energy-timing\"]": 1,
+    "[\"grooming\",\"priority\",\"assertions\"]": 1,
+    "[\"jimbo\",\"audit\",\"guardrail\",\"api\"]": 1,
+    "[\"hermes\",\"snapshot\",\"revert\"]": 1,
+    "[\"hermes\",\"snapshot\",\"skills\",\"commission-worker\"]": 1
+  },
+  "dispatch_status": {
+    "completed": 50
+  },
+  "vault_findings": [
+    "Vault assertion: money due dates land inside Morocco week",
+    "Vault assertion: AI consultant pivot is de facto #1 while model still centres LocalShout",
+    "Vault assertion: daily triage still runs through second travel week",
+    "Vault assertion: CV/positioning deadlines outrank LocalShout in manual task surface"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-22",
+  "project": "LocalShout",
+  "artifact": "web research dig",
+  "claim": "OpenActive is a practical, standardised ingestion substrate for a LocalShout activity-feed custody spike; Instagram/poster scraping should be a supplement, not the first dependency.",
+  "live_fetches": {
+    "openactive_collection_catalogues": 5,
+    "openactive_singular_catalogue_datasets": 23,
+    "collection_file": "/tmp/jimbo-cairn-build/openactive-collection.jsonld",
+    "singular_catalogue_file": "/tmp/jimbo-cairn-build/openactive-singular.jsonld"
+  },
+  "sources": [
+    {
+      "url": "https://www.gov.uk/government/publications/meeting-minutes-for-the-data-standards-authority-governance-boards/dsa-peer-review-group-minutes-friday-30-january-2026-html",
+      "title": "DSA Peer Review Group Minutes Friday 30 January 2026",
+      "evidence": "OpenActive funded by Sport England since 2016; core specs include opportunity model, RPDE, booking API, routes; approx. 10m activities and ~4,000 providers at any one time."
+    },
+    {
+      "url": "https://locaria.org/about",
+      "title": "Locaria - About",
+      "evidence": "Locaria combines event search, OpenActive RPDE, polygon/local geospatial filtering, poster scanning, URL import, moderation, API publishing and translation."
+    },
+    {
+      "url": "https://libraries.io/pypi/openactive",
+      "title": "openactive on PyPI",
+      "evidence": "OpenActive data is decentralised: feeds belong to datasets, datasets to catalogues, catalogues to a collection; no single owner/location."
+    },
+    {
+      "url": "https://www.eventbrite.com/platform/docs/by-date",
+      "title": "Searching Events by Date - Deprecated",
+      "evidence": "Eventbrite Event Search API access shutdown notice dated 12 Dec 2019."
+    },
+    {
+      "url": "https://discuss.okfn.org/t/community-event-api-where-are-you/7444",
+      "title": "Community event API, Where Are You?",
+      "evidence": "Community calendars fail on overpowered write access, stale recurring events, weak filters, timezone handling and curation burden."
+    }
+  ],
+  "recommended_next_build": "Prototype an OpenActive -> LocalShout custody importer for Watford + London control area."
+}

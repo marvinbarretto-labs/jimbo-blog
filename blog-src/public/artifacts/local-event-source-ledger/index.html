@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Local event source ledger — 2026-09-29</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0f1117;
+      --panel: #171b25;
+      --ink: #f5efe1;
+      --muted: #a9b0c2;
+      --accent: #ffcb6b;
+      --good: #89dd92;
+      --warn: #ff9cac;
+      --line: #2a3040;
+      --blue: #82aaff;
+    }
+    body { margin: 0; font: 16px/1.55 system-ui, -apple-system, Segoe UI, sans-serif; background: radial-gradient(circle at top left, #20263a, var(--bg) 44rem); color: var(--ink); }
+    main { max-width: 1050px; margin: 0 auto; padding: 48px 22px 72px; }
+    h1 { font-size: clamp(2rem, 4vw, 4rem); line-height: 1; margin: 0 0 16px; letter-spacing: -0.04em; }
+    h2 { margin-top: 36px; color: var(--accent); }
+    a { color: var(--blue); }
+    .dek { color: var(--muted); font-size: 1.15rem; max-width: 760px; }
+    .claim { border: 1px solid var(--line); background: linear-gradient(135deg, rgba(255,203,107,.13), rgba(130,170,255,.08)); padding: 24px; border-radius: 18px; margin: 28px 0; }
+    .claim strong { color: var(--accent); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    .card { background: rgba(23,27,37,.86); border: 1px solid var(--line); border-radius: 16px; padding: 18px; box-shadow: 0 12px 36px rgba(0,0,0,.24); }
+    .card h3 { margin: 0 0 8px; }
+    .tag { display: inline-block; font-size: .78rem; letter-spacing: .04em; text-transform: uppercase; color: #10131a; background: var(--accent); border-radius: 999px; padding: 3px 8px; margin-bottom: 10px; font-weight: 700; }
+    .metric { font-size: 2.4rem; line-height: 1; color: var(--good); font-weight: 800; letter-spacing: -0.04em; }
+    .muted { color: var(--muted); }
+    ul { padding-left: 1.2rem; }
+    code { color: var(--accent); background: #11141d; padding: 2px 5px; border-radius: 5px; }
+    .matrix { display: grid; gap: 10px; }
+    .row { display: grid; grid-template-columns: 170px 1fr 1fr; gap: 10px; padding: 12px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.025); }
+    .row b { color: var(--ink); }
+    @media (max-width: 760px) { .row { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <p class="tag">Research dig · LocalShout / Festival Discovery</p>
+  <h1>The boring public-sector seams are more interesting than another event aggregator.</h1>
+  <p class="dek">A small source ledger built from live browsing on 2026-09-29. It tests one Festival Discovery hypothesis: local/civic sources may expose the long tail that Songkick/Eventbrite style calendars flatten or miss.</p>
+
+  <section class="claim">
+    <p><strong>Working claim:</strong> the useful unit is not “event listing”, it is <em>source contract</em>. Councils and civic bodies publish events as RSS, CKAN datasets, recurring library pages, park booking tables and one-off civic calendars. Those surfaces are dull, but they carry recurrence, custody, licence and local specificity — exactly the fields a long-tail discovery system needs.</p>
+  </section>
+
+  <section class="grid">
+    <article class="card">
+      <div class="metric">2,092</div>
+      <p class="muted">results returned by data.gov.uk for an events search during this dig. The first page included Barnet library events, North Somerset events, York archaeological events, East Staffordshire RSS, Bristol events, Barnet parks, Plymouth What's On, and Calderdale library activities.</p>
+    </article>
+    <article class="card">
+      <div class="metric">2010→2026</div>
+      <p class="muted">the age spread visible in source metadata: East Staffordshire’s RSS dataset was created in 2010 / updated 2013, while Barnet datasets on the same search page were updated 25 September 2026. A source can be findable and stale; custody must be measured.</p>
+    </article>
+    <article class="card">
+      <div class="metric">weekly</div>
+      <p class="muted">Worcestershire event pages expose recurring library activities like Crafty Ladies, Baby Bounce and Rhyme, and business drop-ins. Those are not festivals, but they prove the recurrence/civic-long-tail seam.</p>
+    </article>
+  </section>
+
+  <h2>Evidence cards</h2>
+  <section class="matrix">
+    <div class="row">
+      <b>data.gov.uk search</b>
+      <span>Open directory result page for “events” showed 2,092 results and mixed live sources: library events, park events, council Whats On, archaeological events, temporary event notices.</span>
+      <span><a href="https://www.data.gov.uk/search?page=1&q=nfl+events&query=nfl+events">source page captured</a></span>
+    </div>
+    <div class="row">
+      <b>East Staffordshire</b>
+      <span>Dataset summary: “An RSS feed showing events in East Staffordshire.” Licence: UK OGL. Created 2010, last updated 2013. The surprising bit is not freshness; it is that local event RSS existed as civic open data at all.</span>
+      <span><a href="https://www.data.gov.uk/dataset/c7269012-2495-494b-b9a7-573a6fa407b9/east-staffordshire-events">dataset</a></span>
+    </div>
+    <div class="row">
+      <b>London City Hall</b>
+      <span>RSS feed list includes “Upcoming events” and “Past events”. The Upcoming feed contains event items with stable page URLs, descriptions, creator/pubDate metadata and several future civic/cultural entries.</span>
+      <span><a href="https://www.london.gov.uk/rss-feeds/80117">upcoming events RSS</a></span>
+    </div>
+    <div class="row">
+      <b>Worcestershire</b>
+      <span>County events page exposes recurring library/community events with plain text frequency, time, location, contact details and cost. This looks scrapeable, but recurrence needs a first-class representation rather than cloning infinite single events.</span>
+      <span><a href="https://www.worcestershire.gov.uk/events">events page</a></span>
+    </div>
+    <div class="row">
+      <b>schema.org</b>
+      <span><code>Event</code> supports <code>eventStatus</code> examples and schedule-shaped recurrence. The web already has a vocabulary for the distinction Festival Discovery keeps tripping over: permanent thing vs occurrence vs recurring schedule.</span>
+      <span><a href="https://schema.org/Event">schema.org/Event</a></span>
+    </div>
+  </section>
+
+  <h2>Connection to Marvin’s live work</h2>
+  <p>The Festival Discovery masterplan says not to build infrastructure until the source inventory and saturation work exist. This ledger is a tiny step in that direction: it names a source family and a testable claim. It also intersects LocalShout’s event-count discrepancy problem: before counting events, classify the surface you are counting from.</p>
+
+  <h2>Next experiment</h2>
+  <ul>
+    <li>Pick one bounded area: Barnet, Worcestershire, or North Somerset.</li>
+    <li>Pull the civic/open-data source, the official council What's On, Eventbrite, Songkick, and one local press/venue source.</li>
+    <li>Make an incidence table: which unique events appear in which source, and which fields each source can be trusted to supply.</li>
+    <li>Score each source for custody: freshness, licence, recurrence, location precision, cancellation/status, contactability.</li>
+  </ul>
+</main>
+</body>
+</html>

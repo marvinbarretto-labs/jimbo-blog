@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 1840" role="img" aria-labelledby="map-title map-desc">
+<title id="map-title">Festival discovery: the experiment firewall</title>
+<desc id="map-desc">A research design map separating an independently assembled benchmark from the discovery methods being tested, joining them only for scoring, then applying the saturation gate before infrastructure.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="none" stroke="#475569" stroke-width="1.5"/></marker></defs>
+<rect width="720" height="1840" rx="18" fill="#f6f4ed"/>
+<text x="32" y="42" font-family="system-ui,sans-serif" font-size="18" fill="#183347">
+<tspan x="32" dy="0">FESTIVAL DISCOVERY</tspan>
+</text>
+<text x="32" y="88" font-family="system-ui,sans-serif" font-size="32" fill="#183347">
+<tspan x="32" dy="0">The experiment firewall</tspan>
+</text>
+<text x="32" y="128" font-family="system-ui,sans-serif" font-size="18" fill="#183347">
+<tspan x="32" dy="0">Research design, not a progress or coverage claim.</tspan>
+</text>
+<rect x="32" y="164" width="656" height="112" rx="12" fill="#dbeafe" stroke="#475569" stroke-width="1.5"/>
+<text x="48" y="201.0" font-family="system-ui,sans-serif" font-size="20" fill="#183347">
+<tspan x="48" dy="0">01 / DEFINE THE THING · JIM-5396</tspan>
+<tspan x="48" dy="26.0">Broad inclusion; awkward cases; festival ≠ performance.</tspan>
+<tspan x="48" dy="26.0">Croxfest + Bloody Scotland must both pass.</tspan>
+</text>
+<path d="M210,276 L210,330" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M688,220 L704,220 L704,680 L586,680 L586,704" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="32" y="330" width="410" height="142" rx="12" fill="#c3fae8" stroke="#475569" stroke-width="1.5"/>
+<text x="48" y="370.6" font-family="system-ui,sans-serif" font-size="19" fill="#183347">
+<tspan x="48" dy="0">02 / BUILD THE RULER · JIM-5397</tspan>
+<tspan x="48" dy="24.7">50–100 deliberately difficult UK festivals.</tspan>
+<tspan x="48" dy="24.7">Keep how each was originally found.</tspan>
+<tspan x="48" dy="24.7">Independent of the methods under test.</tspan>
+</text>
+<rect x="32" y="506" width="410" height="108" rx="12" fill="#fff3bf" stroke="#475569" stroke-width="1.5" stroke-dasharray="8 6"/>
+<text x="48" y="541.95" font-family="system-ui,sans-serif" font-size="19" fill="#183347">
+<tspan x="48" dy="0">FIREWALL · proposed protocol</tspan>
+<tspan x="48" dy="24.7">Freeze a version before the scored run.</tspan>
+<tspan x="48" dy="24.7">Later finds enter the next version.</tspan>
+</text>
+<path d="M236,472 L236,506" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="468" y="378" font-family="system-ui,sans-serif" font-size="18" fill="#8c2639">
+<tspan x="468" dy="0">Do not use a</tspan>
+<tspan x="468" dy="23.400000000000002">tested directory</tspan>
+<tspan x="468" dy="23.400000000000002">to quietly seed</tspan>
+<tspan x="468" dy="23.400000000000002">its own exam.</tspan>
+</text>
+<text x="32" y="674" font-family="system-ui,sans-serif" font-size="20" fill="#183347">
+<tspan x="32" dy="0">03 / RUN THE DISCOVERY NETS · JIM-5392</tspan>
+</text>
+<rect x="32" y="704" width="204" height="142" rx="12" fill="#dbeafe" stroke="#475569" stroke-width="1.5"/>
+<text x="48" y="746.2" font-family="system-ui,sans-serif" font-size="18" fill="#183347">
+<tspan x="48" dy="0">PLACE</tspan>
+<tspan x="48" dy="23.400000000000002">What happens here?</tspan>
+<tspan x="48" dy="23.400000000000002">Council, village,</tspan>
+<tspan x="48" dy="23.400000000000002">tourism, local press.</tspan>
+</text>
+<rect x="258" y="704" width="204" height="142" rx="12" fill="#e9d5ff" stroke="#475569" stroke-width="1.5"/>
+<text x="274" y="747.8" font-family="system-ui,sans-serif" font-size="17" fill="#183347">
+<tspan x="274" dy="0">INTEREST</tspan>
+<tspan x="274" dy="22.1">Where does it occur?</tspan>
+<tspan x="274" dy="22.1">Crime, folk, food,</tspan>
+<tspan x="274" dy="22.1">specialist directories.</tspan>
+</text>
+<rect x="484" y="704" width="204" height="142" rx="12" fill="#ffd8a8" stroke="#475569" stroke-width="1.5"/>
+<text x="500" y="746.2" font-family="system-ui,sans-serif" font-size="18" fill="#183347">
+<tspan x="500" dy="0">NETWORK</tspan>
+<tspan x="500" dy="23.400000000000002">What connects?</tspan>
+<tspan x="500" dy="23.400000000000002">Artists, sponsors,</tspan>
+<tspan x="500" dy="23.400000000000002">venues, partners.</tspan>
+</text>
+<path d="M134,846 L134,892" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M360,846 L360,892" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M586,846 L586,892" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="32" y="892" width="656" height="120" rx="12" fill="#ffffff" stroke="#475569" stroke-width="1.5" stroke-dasharray="8 6"/>
+<text x="48" y="933.0" font-family="system-ui,sans-serif" font-size="20" fill="#183347">
+<tspan x="48" dy="0">04 / KEEP A CANDIDATE LEDGER · proposed protocol</tspan>
+<tspan x="48" dy="26.0">One festival identity; every finding method retained.</tspan>
+<tspan x="48" dy="26.0">Separate edition/performance hits; keep source + effort.</tspan>
+</text>
+<path d="M470,1012 L470,1076" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M32,560 L16,560 L16,1048 L236,1048 L236,1076" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)" stroke-dasharray="8 6"/>
+<rect x="32" y="1076" width="656" height="154" rx="12" fill="#c3fae8" stroke="#475569" stroke-width="1.5"/>
+<text x="48" y="1121.0" font-family="system-ui,sans-serif" font-size="20" fill="#183347">
+<tspan x="48" dy="0">05 / SCORE TWO DIFFERENT QUESTIONS · JIM-5395</tspan>
+<tspan x="48" dy="26.0">Recall: which independent benchmark entries were found?</tspan>
+<tspan x="48" dy="26.0">Saturation: how many new unique festivals per method?</tspan>
+<tspan x="48" dy="26.0">Compare within the same bounded areas.</tspan>
+</text>
+<text x="48" y="1280" font-family="system-ui,sans-serif" font-size="20" fill="#8c2639">
+<tspan x="48" dy="0">A flat curve can mean shared blind spots.</tspan>
+<tspan x="48" dy="26.0">Check missed benchmark entries as well as yield.</tspan>
+</text>
+<path d="M672,1230 L672,1350" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="32" y="1350" width="656" height="104" rx="12" fill="#fff3bf" stroke="#475569" stroke-width="1.5"/>
+<text x="48" y="1395.7" font-family="system-ui,sans-serif" font-size="21" fill="#183347">
+<tspan x="48" dy="0">06 / WRITE THE GO / NO-GO · JIM-5395</tspan>
+<tspan x="48" dy="27.3">Are coverage and effort tractable? State the evidence.</tspan>
+</text>
+<path d="M360,1454 L360,1512" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="32" y="1512" width="656" height="132" rx="12" fill="#ffd8a8" stroke="#475569" stroke-width="1.5"/>
+<text x="48" y="1546.0" font-family="system-ui,sans-serif" font-size="20" fill="#183347">
+<tspan x="48" dy="0">ONLY THEN / CONSIDER THE NEXT STAGE</tspan>
+<tspan x="48" dy="26.0">European repeatability + historical maintenance cost.</tspan>
+<tspan x="48" dy="26.0">No crawlers, database or extraction pipeline before</tspan>
+<tspan x="48" dy="26.0">the saturation evidence exists. · JIM-5392</tspan>
+</text>
+<text x="32" y="1702" font-family="system-ui,sans-serif" font-size="18" fill="#183347">
+<tspan x="32" dy="0">Solid cards: requirements recorded in vault sources.</tspan>
+<tspan x="32" dy="23.400000000000002">Dashed cards / arrow: my proposed measurement protocol.</tspan>
+<tspan x="32" dy="23.400000000000002">Arrows show research dependencies, not work completed.</tspan>
+</text>
+<text x="32" y="1800" font-family="system-ui,sans-serif" font-size="16" fill="#183347">
+<tspan x="32" dy="0">Source read: 22 October 2026 · Jimbo · editable Excalidraw</tspan>
+</text>
+</svg>

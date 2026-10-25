@@ -1,0 +1,150 @@
+{
+  "source_munros": 282,
+  "collection_items": 282,
+  "unique_collection_ids": 282,
+  "unique_matched_source_ids": 282,
+  "reused_source_ids": [],
+  "missing_source_ids": [],
+  "repeated_source_names": {
+    "A' Chailleach": 2,
+    "An Socach": 3,
+    "Aonach Beag": 2,
+    "Beinn Dearg": 2,
+    "Beinn Fhionnlaidh": 2,
+    "Beinn a' Chaorainn": 2,
+    "Ben More": 2,
+    "Ben Vorlich": 2,
+    "Carn Dearg": 3,
+    "Carn nan Gobhar": 2,
+    "Geal Charn": 2,
+    "Meall Buidhe": 2,
+    "Meall Garbh": 2,
+    "Sgurr Mor": 2,
+    "Sgurr nan Coireachan": 2,
+    "Stob Ban": 2
+  },
+  "unresolved": [],
+  "mismatch_count": 12,
+  "mismatches": [
+    {
+      "id": "ben-more",
+      "name": "Ben More",
+      "height_m": 1174,
+      "county_in_collection": "perthshire",
+      "dobih_number": "26",
+      "source_grid_ref": "NN432244",
+      "collection_smc": 17,
+      "source_smc": 1
+    },
+    {
+      "id": "meall-buidhe",
+      "name": "Meall Buidhe",
+      "height_m": 932,
+      "county_in_collection": "perthshire",
+      "dobih_number": "123",
+      "source_grid_ref": "NN498499",
+      "collection_smc": 10,
+      "source_smc": 2
+    },
+    {
+      "id": "beinn-fhionnlaidh",
+      "name": "Beinn Fhionnlaidh",
+      "height_m": 959,
+      "county_in_collection": "argyllshire",
+      "dobih_number": "201",
+      "source_grid_ref": "NN095497",
+      "collection_smc": 11,
+      "source_smc": 3
+    },
+    {
+      "id": "carn-dearg",
+      "name": "Carn Dearg",
+      "height_m": 941,
+      "county_in_collection": "inverness-shire",
+      "dobih_number": "363",
+      "source_grid_ref": "NN417661",
+      "collection_smc": 9,
+      "source_smc": 4
+    },
+    {
+      "id": "carn-dearg-2",
+      "name": "Carn Dearg",
+      "height_m": 1034,
+      "county_in_collection": "inverness-shire",
+      "dobih_number": "352",
+      "source_grid_ref": "NN504764",
+      "collection_smc": 9,
+      "source_smc": 4
+    },
+    {
+      "id": "geal-charn-2",
+      "name": "Geal Charn",
+      "height_m": 1049,
+      "county_in_collection": "inverness-shire",
+      "dobih_number": "350",
+      "source_grid_ref": "NN504811",
+      "collection_smc": 9,
+      "source_smc": 4
+    },
+    {
+      "id": "beinn-dearg",
+      "name": "Beinn Dearg",
+      "height_m": 1009,
+      "county_in_collection": "perthshire",
+      "dobih_number": "406",
+      "source_grid_ref": "NN852778",
+      "collection_smc": 15,
+      "source_smc": 6
+    },
+    {
+      "id": "an-socach",
+      "name": "An Socach",
+      "height_m": 944,
+      "county_in_collection": "aberdeenshire",
+      "dobih_number": "433",
+      "source_grid_ref": "NO079800",
+      "collection_smc": 12,
+      "source_smc": 6
+    },
+    {
+      "id": "beinn-a-chaorainn",
+      "name": "Beinn a' Chaorainn",
+      "height_m": 1083,
+      "county_in_collection": "aberdeenshire",
+      "dobih_number": "559",
+      "source_grid_ref": "NJ045013",
+      "collection_smc": 9,
+      "source_smc": 8
+    },
+    {
+      "id": "a-chailleach",
+      "name": "A' Chailleach",
+      "height_m": 929,
+      "county_in_collection": "inverness-shire",
+      "dobih_number": "623",
+      "source_grid_ref": "NH681041",
+      "collection_smc": 14,
+      "source_smc": 9
+    },
+    {
+      "id": "sgurr-mor",
+      "name": "Sgurr Mor",
+      "height_m": 1003,
+      "county_in_collection": "inverness-shire",
+      "dobih_number": "733",
+      "source_grid_ref": "NM965980",
+      "collection_smc": 14,
+      "source_smc": 10
+    },
+    {
+      "id": "an-socach-2",
+      "name": "An Socach",
+      "height_m": 920,
+      "county_in_collection": "inverness-shire",
+      "dobih_number": "845",
+      "source_grid_ref": "NH088229",
+      "collection_smc": 12,
+      "source_smc": 11
+    }
+  ]
+}

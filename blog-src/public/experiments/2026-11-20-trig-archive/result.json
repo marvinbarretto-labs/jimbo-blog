@@ -1,0 +1,120 @@
+{
+  "source": "https://www.ordnancesurvey.co.uk/documents/gps/CompleteTrigArchive.zip",
+  "zip_sha256": "b94c4f9dcdfb9336d88eb253397a7694cdbe07049c9a6a01d9be177f76fdb01b",
+  "row_count": 31521,
+  "type_of_mark_counts": {
+    "AERIAL": 40,
+    "APEX": 40,
+    "BEACON": 52,
+    "BELFRY": 94,
+    "BLOCK": 3289,
+    "BOLT": 6032,
+    "BURIED BLK": 2874,
+    "CAIRN": 16,
+    "CENTRE": 1756,
+    "CHIMNEY": 751,
+    "CROSS": 50,
+    "CUPOLA": 118,
+    "CURRY ST'L": 9,
+    "CUT": 111,
+    "DISC": 157,
+    "DOME": 102,
+    "FENOMARK": 15,
+    "FLAGSTAFF": 2353,
+    "HOLE": 16,
+    "HYDROG": 4,
+    "L'NING C": 94,
+    "LAMP": 10,
+    "LIGHTHOUSE": 186,
+    "MARK": 10,
+    "MAST": 427,
+    "MEMORIAL": 15,
+    "MONUMENT": 109,
+    "OBELISK": 18,
+    "OLD TRIG": 442,
+    "PEG": 5,
+    "PILLAR": 7111,
+    "PINNACLE": 54,
+    "PIPE": 27,
+    "PLATE": 16,
+    "POLE": 20,
+    "POST": 5,
+    "PUNCH MARK": 17,
+    "PYLON": 15,
+    "RIVET": 1404,
+    "SPIDER": 15,
+    "SPIRE": 2555,
+    "STONE": 4,
+    "TOPOGRAPH": 3,
+    "TOWER": 72,
+    "TURRET": 5,
+    "VANE": 961,
+    "VENT": 35,
+    "WIRE": 7
+  },
+  "pillar_rows": 7111,
+  "pillar_destroyed_indicator_counts": {
+    "0": 6079,
+    "1": 1030,
+    "2": 1,
+    "3": 1
+  },
+  "examples": [
+    {
+      "new_name": "TL74T011",
+      "records": [
+        {
+          "Trig Name": "Abington Park",
+          "TYPE OF MARK": "PILLAR",
+          "DESTROYED MARK INDICATOR": "0",
+          "COMMENTS": ""
+        },
+        {
+          "Trig Name": "Abington Park (old)",
+          "TYPE OF MARK": "PILLAR",
+          "DESTROYED MARK INDICATOR": "1",
+          "COMMENTS": "Recomputed 11/86"
+        }
+      ]
+    },
+    {
+      "new_name": "HY52T024",
+      "records": [
+        {
+          "Trig Name": "Akla",
+          "TYPE OF MARK": "BEACON",
+          "DESTROYED MARK INDICATOR": "0",
+          "COMMENTS": "CENTRE OF NAVIGATION BEACON"
+        },
+        {
+          "Trig Name": "Akla",
+          "TYPE OF MARK": "PILLAR",
+          "DESTROYED MARK INDICATOR": "0",
+          "COMMENTS": ""
+        }
+      ]
+    },
+    {
+      "new_name": "SD80S003",
+      "records": [
+        {
+          "Trig Name": "Alderley Edge",
+          "TYPE OF MARK": "BLOCK",
+          "DESTROYED MARK INDICATOR": "1",
+          "COMMENTS": "Replaces pillar. Dest 11/78"
+        },
+        {
+          "Trig Name": "Alderley Edge",
+          "TYPE OF MARK": "PILLAR",
+          "DESTROYED MARK INDICATOR": "1",
+          "COMMENTS": "Replaced by block 10/62"
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Archive rows are not unique currently visitable pillars.",
+    "Raw indicator values are preserved, not interpreted.",
+    "No access, current condition, or coordinate conversion checked."
+  ]
+}

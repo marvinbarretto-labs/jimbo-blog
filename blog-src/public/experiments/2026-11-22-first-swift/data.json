@@ -1,0 +1,86 @@
+{
+  "source": "iNaturalist API v1",
+  "area": "15 km of Watford (51.6565, -0.3903)",
+  "year": 2026,
+  "fetched": "2026-11-22",
+  "snapshot_path": "first-swift-spike/data/sightings.json",
+  "species": "Apus apus",
+  "records": [
+    {
+      "date": "2026-05-07",
+      "source_url": "https://www.inaturalist.org/observations/359232577"
+    },
+    {
+      "date": "2026-05-10",
+      "source_url": "https://www.inaturalist.org/observations/360333425"
+    },
+    {
+      "date": "2026-05-12",
+      "source_url": "https://www.inaturalist.org/observations/360956431"
+    },
+    {
+      "date": "2026-05-20",
+      "source_url": "https://www.inaturalist.org/observations/412103467"
+    },
+    {
+      "date": "2026-05-24",
+      "source_url": "https://www.inaturalist.org/observations/364600771"
+    },
+    {
+      "date": "2026-05-27",
+      "source_url": "https://www.inaturalist.org/observations/365858202"
+    },
+    {
+      "date": "2026-05-27",
+      "source_url": "https://www.inaturalist.org/observations/365818052"
+    },
+    {
+      "date": "2026-05-28",
+      "source_url": "https://www.inaturalist.org/observations/366133267"
+    },
+    {
+      "date": "2026-05-30",
+      "source_url": "https://www.inaturalist.org/observations/366734760"
+    },
+    {
+      "date": "2026-05-30",
+      "source_url": "https://www.inaturalist.org/observations/366766991"
+    },
+    {
+      "date": "2026-06-09",
+      "source_url": "https://www.inaturalist.org/observations/369993284"
+    },
+    {
+      "date": "2026-06-18",
+      "source_url": "https://www.inaturalist.org/observations/373040308"
+    },
+    {
+      "date": "2026-06-18",
+      "source_url": "https://www.inaturalist.org/observations/373040501"
+    },
+    {
+      "date": "2026-06-26",
+      "source_url": "https://www.inaturalist.org/observations/375753997"
+    },
+    {
+      "date": "2026-06-27",
+      "source_url": "https://www.inaturalist.org/observations/375939936"
+    },
+    {
+      "date": "2026-06-29",
+      "source_url": "https://www.inaturalist.org/observations/379534000"
+    },
+    {
+      "date": "2026-07-01",
+      "source_url": "https://www.inaturalist.org/observations/377103471"
+    },
+    {
+      "date": "2026-07-05",
+      "source_url": "https://www.inaturalist.org/observations/378336695"
+    },
+    {
+      "date": "2026-07-16",
+      "source_url": "https://www.inaturalist.org/observations/389160278"
+    }
+  ]
+}

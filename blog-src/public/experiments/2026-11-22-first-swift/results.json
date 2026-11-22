@@ -1,0 +1,78 @@
+{
+  "record_count": 19,
+  "unique_dates": 16,
+  "earliest": "2026-05-07",
+  "method": "exact uniform record subsets without replacement",
+  "warning": "Sensitivity of this archive minimum only; not observer effort or biological arrival.",
+  "subsets": [
+    {
+      "kept": 1,
+      "subsets": 19,
+      "earliest_retained_fraction": 0.05263157894736842,
+      "median_minimum": "2026-05-30",
+      "minimum_distribution": {
+        "2026-05-07": 1,
+        "2026-05-10": 1,
+        "2026-05-12": 1,
+        "2026-05-20": 1,
+        "2026-05-24": 1,
+        "2026-05-27": 2,
+        "2026-05-28": 1,
+        "2026-05-30": 2,
+        "2026-06-09": 1,
+        "2026-06-18": 2,
+        "2026-06-26": 1,
+        "2026-06-27": 1,
+        "2026-06-29": 1,
+        "2026-07-01": 1,
+        "2026-07-05": 1,
+        "2026-07-16": 1
+      }
+    },
+    {
+      "kept": 5,
+      "subsets": 11628,
+      "earliest_retained_fraction": 0.2631578947368421,
+      "median_minimum": "2026-05-12",
+      "minimum_distribution": {
+        "2026-05-07": 3060,
+        "2026-05-10": 2380,
+        "2026-05-12": 1820,
+        "2026-05-20": 1365,
+        "2026-05-24": 1001,
+        "2026-05-27": 1210,
+        "2026-05-28": 330,
+        "2026-05-30": 336,
+        "2026-06-09": 70,
+        "2026-06-18": 50,
+        "2026-06-26": 5,
+        "2026-06-27": 1
+      }
+    },
+    {
+      "kept": 10,
+      "subsets": 92378,
+      "earliest_retained_fraction": 0.5263157894736842,
+      "median_minimum": "2026-05-07",
+      "minimum_distribution": {
+        "2026-05-07": 48620,
+        "2026-05-10": 24310,
+        "2026-05-12": 11440,
+        "2026-05-20": 5005,
+        "2026-05-24": 2002,
+        "2026-05-27": 935,
+        "2026-05-28": 55,
+        "2026-05-30": 11
+      }
+    },
+    {
+      "kept": 19,
+      "subsets": 1,
+      "earliest_retained_fraction": 1.0,
+      "median_minimum": "2026-05-07",
+      "minimum_distribution": {
+        "2026-05-07": 1
+      }
+    }
+  ]
+}

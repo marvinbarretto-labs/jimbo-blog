@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 410" role="img" aria-labelledby="title desc">
+<title id="title">Three invented journeys, two identical photographs</title>
+<desc id="desc">Time runs left to right from 10 to 12. Position along an invented corridor runs vertically. All journeys start at kilometre zero and end at kilometre four. At 11 their positions are minus two, two and six kilometres. Every leg respects a six kilometre per hour speed cap.</desc>
+<rect width="680" height="410" fill="#14212b"/>
+<g fill="#f2eee5" font-family="system-ui,sans-serif" font-size="16">
+<text x="30" y="30">Two fixes do not select a journey</text>
+<text x="30" y="55" font-size="13">Invented corridor · distance in km · maximum speed 6 km/h</text>
+</g>
+<g stroke="#647783" stroke-width="1"><path d="M80 85V325H590" fill="none"/><path d="M320 85V325" stroke-dasharray="4 5"/></g>
+<g fill="none" stroke-width="4"><path d="M80 240L320 300L560 120" stroke="#e9ae62"/><path d="M80 240L320 180L560 120" stroke="#f2eee5" stroke-dasharray="7 5"/><path d="M80 240L320 60L560 120" stroke="#7bd2bf"/></g>
+<g fill="#f2eee5" font-family="system-ui,sans-serif" font-size="15">
+<text x="42" y="245">0</text><text x="42" y="125">4</text>
+<text x="330" y="65">6 km</text><text x="330" y="180">2 km</text><text x="330" y="306">−2 km</text>
+<text x="60" y="350">10:00</text><text x="300" y="350">11:00</text><text x="540" y="350">12:00</text>
+<text x="30" y="390" font-size="13">Dots: assumed photo fixes. Lines: possible stories, not observed tracks.</text>
+</g>
+<g fill="#f2eee5" stroke="#14212b" stroke-width="2"><circle cx="80" cy="240" r="7"/><circle cx="560" cy="120" r="7"/></g>
+</svg>

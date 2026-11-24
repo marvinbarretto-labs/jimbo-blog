@@ -1,0 +1,127 @@
+{
+  "scope": "Invented cards and scores; archive replacement only; no generation or human evaluation",
+  "constant_axes": {
+    "origin": "published",
+    "distance": "far"
+  },
+  "cards": [
+    {
+      "id": "A",
+      "title": "Flag unusual health readings",
+      "sector": "health",
+      "mechanism": "screen",
+      "quality": 98
+    },
+    {
+      "id": "B",
+      "title": "Flag unusual clinic records",
+      "sector": "health",
+      "mechanism": "screen",
+      "quality": 97
+    },
+    {
+      "id": "C",
+      "title": "Flag unusual wildlife records",
+      "sector": "nature",
+      "mechanism": "screen",
+      "quality": 96
+    },
+    {
+      "id": "D",
+      "title": "Flag unusual archive records",
+      "sector": "heritage",
+      "mechanism": "screen",
+      "quality": 95
+    },
+    {
+      "id": "E",
+      "title": "Flag unusual energy readings",
+      "sector": "energy",
+      "mechanism": "screen",
+      "quality": 94
+    },
+    {
+      "id": "F",
+      "title": "Coordinate spare clinic rooms",
+      "sector": "health",
+      "mechanism": "coordinate",
+      "quality": 70
+    },
+    {
+      "id": "G",
+      "title": "Coordinate shared field equipment",
+      "sector": "nature",
+      "mechanism": "coordinate",
+      "quality": 69
+    },
+    {
+      "id": "H",
+      "title": "Maintain community energy equipment",
+      "sector": "energy",
+      "mechanism": "maintain",
+      "quality": 68
+    }
+  ],
+  "by_sector": {
+    "energy": {
+      "id": "E",
+      "title": "Flag unusual energy readings",
+      "sector": "energy",
+      "mechanism": "screen",
+      "quality": 94
+    },
+    "health": {
+      "id": "A",
+      "title": "Flag unusual health readings",
+      "sector": "health",
+      "mechanism": "screen",
+      "quality": 98
+    },
+    "heritage": {
+      "id": "D",
+      "title": "Flag unusual archive records",
+      "sector": "heritage",
+      "mechanism": "screen",
+      "quality": 95
+    },
+    "nature": {
+      "id": "C",
+      "title": "Flag unusual wildlife records",
+      "sector": "nature",
+      "mechanism": "screen",
+      "quality": 96
+    }
+  },
+  "by_mechanism": {
+    "coordinate": {
+      "id": "F",
+      "title": "Coordinate spare clinic rooms",
+      "sector": "health",
+      "mechanism": "coordinate",
+      "quality": 70
+    },
+    "maintain": {
+      "id": "H",
+      "title": "Maintain community energy equipment",
+      "sector": "energy",
+      "mechanism": "maintain",
+      "quality": 68
+    },
+    "screen": {
+      "id": "A",
+      "title": "Flag unusual health readings",
+      "sector": "health",
+      "mechanism": "screen",
+      "quality": 98
+    }
+  },
+  "by_mechanism_floor_75": {
+    "screen": {
+      "id": "A",
+      "title": "Flag unusual health readings",
+      "sector": "health",
+      "mechanism": "screen",
+      "quality": 98
+    }
+  }
+}
